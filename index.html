@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html>
+<head>
+        <title>Responsive Portfolio Website</title>
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <script src="js/custom.js"></script>
+        <script src="https://code.jquery.com/jquery-3.6.0.js" ></script>
+        <script src="js/typed.min.js"></script>
+
+</head>
+
+        
+       
+
+<body>
+    
+   <header>
+    <nav>
+      <div class="logo">PORTFO<span>LIO</span></div>
+
+      <div class="menu">
+        <a href="#"> Home</a>
+        <a href="#"> About</a>
+        <a href="#"> Skills</a>
+        <a href="#"> Contact</a>
+
+       </div>
+     </nav>
+     <div class="text">
+      <p> Hello,I am</p>
+      <h1>SATVASHEEL POWAR</h1>
+      <p>And I am a <span id="ani" style="color: #e74c3c;"></span></p>
+      <button class="c-btn">Hire me</button>
+
+     </div>
+
+
+   </header>
+      <section id="about">
+             <div class="section-info">
+              <h1>About</h1>
+              <p>Who I am?</p>
+               
+             </div>
+             <div class="about-row">
+               <div class="about-left-col">
+                 <img src="images/about.jpg">
+               </div>
+               <div class="about-right-col">
+                <p id="p-title">
+                  Hello, I'm satvasheel & I'm a <span id="ani2" style="color: #e74c3c;"></span></p>
+                </p>
+                 <p>
+                    Hi I'm Satvasheel Powar. Basically I am from Kolhapur. I have completed  My 12th in Jaysingpur
+                    with 76%. Now, I am in D Y Patil College for pursuing my B-tech degree in computer science and engineering. I am good in programming language such as Python, C, C++, HTML and CSS. Also I am good website design (front end developer). I aslo starting project called 'Diabetes detection website' with my project team. In this project we use Machine learning and Web. 
+                    thank you......!
+                     
+                  </p>
+                 
+                  <button class="c-btn">Downlode CV</button>
+               </div>
+                  
+             </div>
+
+       
+     </section>
+
+         <section id="skills">
+           <div class="section-info">
+              <h1 style="color: white">Skills</h1>
+              <p>Who I am?</p>
+         </div>
+
+         <div class="skills-row">
+           <div class="skills-left-col">
+             <p>
+               1)Knowledge of programming language such as Pytho,C,C++,HTML.
+            
+             </p>
+             <p>
+               3)Front end developer.
+            
+             </p>
+              <p>
+               2)Problem handling and problem solving.
+            
+             </p>
+             <button class="c-btn">Read more</button>
+           </div>
+           <div class="skills-right-col">
+             <div class="progress-div">
+              <p>
+              <samp>Python</samp><br>
+              <progress value="80" max="100"></progress>
+              <samp>80%</samp>
+               </p>
+                <p>
+              <samp>HTML</samp><br>
+              <progress value="70" max="100"></progress>
+              <samp>70%</samp>
+               </p>
+                <p>
+              <samp>C</samp><br>
+              <progress value="80" max="100"></progress>
+              <samp>80%</samp>
+               </p>
+                <p>
+              <samp>C++</samp><br>
+              <progress value="80" max="100"></progress>
+              <samp>80%</samp>
+               </p>
+                <p>
+              <samp>CSS</samp><br>
+              <progress value="60" max="100"></progress>
+              <samp>60%</samp>
+               </p>
+             </div>
+           </div>
+         </div>
+           
+         </section>
+      <section id="contact">
+         <div class="section-info" style="color: white">
+              <h1>Get in tuch</h1>
+              <p style="color: black">I am Avilable</p>
+            </div>
+        <div class="contact-row">
+          <div class="contact-left-col">
+             <img src="images/b3.png">
+          </div>
+           <div class="contact-right-col">
+             <form>
+              <h2>Connect with me</h2>
+               <input type="text" name="" placeholder="Name">
+               <input type="email" name="" placeholder="E-mail">
+               <br>
+               <textarea cols="40" rows="10" placeholder="Message"></textarea>
+               <br>
+               <button class="c-btn">Submit</button>
+             </form>
+           </div>
+
+        </div>
+      </section>
+      <section id="footer">
+        <h2>Developed by<br>Satvasheel Powar</h2>
+        <img src="images/icon.png" width="100">
+      </section>
+
+      <script src="js/jquery.ripples-min.js"></script>
+      <script >
+        jQuery(document).ready(function(){
+          $('header').ripples({
+  dropRadius: 20,
+  perturbance: 0.03,
+  
+});
+        });
+      </script>
+
+    <script >
+      let animate= new Typed('#ani',{
+        strings:["computer engineer","Front end developer","programmer"],
+        typeSpeed:100,
+        backSpeed:100,
+        loop:true,
+
+      })
+    </script>
+
+     <script >
+      let animat= new Typed('#ani2',{
+        strings:["Front end developer","computer engineer","programmer"],
+        typeSpeed:100,
+        backSpeed:100,
+        loop:true,
+
+      })
+    </script>
+
+</body>
+</html>
